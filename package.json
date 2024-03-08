@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "vsvim-get-good.helloWorld",
-        "title": "Hello World"
+        "command": "vsvim-get-good.start",
+        "title": "vsvim get good"
       }
     ]
   },
