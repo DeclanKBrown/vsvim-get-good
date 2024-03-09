@@ -13,9 +13,13 @@ export class StartScreen {
         return StartScreen.instance;
     }
 
+    private startHJKLGame(editor: vscode.TextEditor) {
+        new HjklRound('easy', editor).start();
+    }
+
     public start(editor: vscode.TextEditor) {
         vscode.window.showInformationMessage('Starting game');
-        // Here, use `editor` to interact with the currently active text editor.
-        new HjklRound('easy', editor).start();
+
+        this.startHJKLGame(editor);
     }
 }
