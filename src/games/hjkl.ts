@@ -6,7 +6,6 @@ const boardSizeOptions: { [key: string]: number } = {
     medium: 7,
     hard: 8,
     nightmare: 9,
-    tpope: 10
 };
 
 const instructions = [
@@ -21,7 +20,7 @@ export class HjklRound {
 
     constructor(difficulty: string, window: vscode.TextEditor) {
         this.window = window;
-        this.difficulty = difficulty;
+        this.difficulty = difficulty.toLowerCase();
     }
 
     getInstructions(): string[] {
