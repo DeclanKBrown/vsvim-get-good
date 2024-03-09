@@ -3,6 +3,8 @@
   "displayName": "vsvim-get-good",
   "description": "learn vim game",
   "version": "0.0.1",
+  "publisher": "DeclanKBrown",
+  "repository": "https://github.com/DeclanKBrown/vsvim-get-good",
   "engines": {
     "vscode": "^1.87.0"
   },
